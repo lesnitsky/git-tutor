@@ -1,0 +1,3 @@
+[submodule "test/mocks/holy-grail-layout"]
+	path = test/mocks/holy-grail-layout
+	url = https://github.com/R1ZZU/git-tutor-holy-grail-layout.git

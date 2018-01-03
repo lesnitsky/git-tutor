@@ -1,7 +1,11 @@
 {
-  "dependencies": {
-    "common-tags": "^1.4.0",
-    "lodash": "^4.17.4",
-    "nodegit": "^0.20.2"
-  }
+    "scripts": {
+        "test": "node test",
+        "update-snapshot": "node test/update-snapshot.js"
+    },
+    "dependencies": {
+        "common-tags": "^1.4.0",
+        "lodash": "^4.17.4",
+        "nodegit": "^0.20.2"
+    }
 }
