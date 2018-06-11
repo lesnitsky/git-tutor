@@ -1,8 +1,11 @@
 {
+    "name": "git-tutor",
+    "version": "0.0.1",
     "scripts": {
         "test": "node test",
         "update-snapshot": "node test/update-snapshot.js"
     },
+    "bin": "./cli.js",
     "dependencies": {
         "common-tags": "^1.4.0",
         "lodash": "^4.17.4",
