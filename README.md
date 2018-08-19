@@ -11,6 +11,10 @@ Writing detailed and complete guide how to build things is kinda hard and people
 
 Git is a perfect tool to build smth incrementally (commits). `git-tutor` walks through commit history and generates markdown, placing commit message first, content of a commit afterwards. Write markdown to your commit messages – have a nice tutorial later with single command
 
+## Example tutorials
+
+* [Tic Tac Toe](https://github.com/R1ZZU/tic-tac-toe)
+
 ## Some rules
 
 * keep commits small and explain almost every line of code you're writing
