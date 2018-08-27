@@ -25,6 +25,7 @@ Git is a perfect tool to build smth incrementally (commits). `git-tutor` walks t
 ## Installation
 
 ```sh
+npm i -g nodegit
 npm i -g git-tutor
 ```
 
