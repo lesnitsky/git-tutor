@@ -1,0 +1,65 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn version
+
+PATH: 
+  /Users/r1zzu/.sdkman/candidates/gradle/current/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/r1zzu/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/r1zzu/.terraform/bin:/Users/r1zzu/Library/Android/sdk/tools:/Users/r1zzu/Library/Android/sdk/tools/emulator:/Users/r1zzu/Library/Android/sdk/tools/bin:/Users/r1zzu/Library/Android/sdk/platform-tools:/Users/r1zzu/.java:/Users/r1zzu/.cargo/bin:/Users/r1zzu/Library/Python/3.6/bin:/usr/local/mysql/bin:/Users/r1zzu/w/own/depot_tools:/Users/r1zzu/w/own/v8/out.gn/x64.release/:/Users/r1zzu/.local/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.9.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:131036:13)
+      at emitNone (events.js:106:13)
+      at Interface.emit (events.js:208:7)
+      at Interface._ttyWrite (readline.js:775:16)
+      at ReadStream.onkeypress (readline.js:160:10)
+      at emitTwo (events.js:126:13)
+      at ReadStream.emit (events.js:214:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1011:36)
+
+npm manifest: 
+  {
+      "name": "git-tutor",
+      "version": "0.1.0",
+      "description": "Generate markdown tutorials from your git history",
+      "author": {
+          "email": "volchenko.andrei@gmail.com",
+          "name": "Andrei Volchenko",
+          "url": "https://twitter.com/R1ZZU"
+      },
+      "license": "WTFPL",
+      "bugs": {
+          "url": "https://github.com/R1ZZU/git-tutor/issues"
+      },
+      "keywords": [
+          "git",
+          "markdown",
+          "education",
+          "tutorial"
+      ],
+      "scripts": {
+          "test": "node test",
+          "update-snapshot": "node test/update-snapshot.js"
+      },
+      "bin": "./cli.js",
+      "dependencies": {
+          "common-tags": "^1.4.0",
+          "lodash": "^4.17.4",
+          "nodegit": "^0.22.2"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
