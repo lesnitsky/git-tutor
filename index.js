@@ -14,7 +14,7 @@ async function formatCommits(commits) {
 
             const patches = _.flatten(await Promise.all(diffs.map(diff => diff.patches())));
 
-            const files = await Promise.all(
+            let files = await Promise.all(
                 patches.map(async patch => {
                     const hunks = await patch.hunks();
                     const lines = _.flatten(await Promise.all(hunks.map(hunk => hunk.lines())));
@@ -30,10 +30,30 @@ async function formatCommits(commits) {
                         isAdded: patch.isAdded(),
                         newPath: patch.newFile().path(),
                         oldPath: patch.oldFile().path(),
+                        isRenamed: patch.isRenamed(),
+                        message: message,
                         diff,
                     };
                 })
             );
+
+            // TODO: for some reason patch.isRenamed() is not working
+            if (files.length == 2) {
+                const [src, dest] = files;
+
+                if (src.diff.every(({ content }, index) => content === dest.diff[index].content)) {
+                    dest.isRenamed = true;
+                    dest.isAdded = false;
+
+                    if (dest.isAdded) {
+                        dest.oldPath = src.oldPath;
+                    } else {
+                        dest.newPath = src.newPath;
+                    }
+
+                    files = [dest];
+                }
+            }
 
             return {
                 message,
@@ -87,13 +107,18 @@ exports.render = async function render(pathToRepo) {
                 commit.files
                     .map(file => {
                         let formatted;
+                        let filename = file.newPath;
+
                         if (file.isAdded) {
                             formatted = formatNewFile(file);
+                        } else if (file.isRenamed) {
+                            filename = `${file.oldPath} => ${file.newPath}`;
+                            formatted = '';
                         } else {
                             formatted = formatDiff(file);
                         }
 
-                        return `📄 ${file.newPath}\n` + formatted;
+                        return `📄 ${filename}\n` + formatted;
                     })
                     .join('\n'),
             ].join('\n')
