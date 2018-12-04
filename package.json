@@ -1,6 +1,6 @@
 {
     "name": "git-tutor",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "Generate markdown tutorials from your git history",
     "author": {
         "email": "volchenko.andrei@gmail.com",
