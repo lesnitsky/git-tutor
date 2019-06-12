@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.com/R1ZZU/git-tutor.svg?branch=master)](https://travis-ci.com/R1ZZU/git-tutor)
 
+> Support me
+
+![GitHub stars](https://img.shields.io/github/stars/lesnitsky/git-tutor.svg?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)
+
 Generate step-by-step markdown tutorials from your git history
 
 ## Motivation
@@ -84,3 +89,8 @@ You can also use your custom commit template:
 
 ## LICENSE
 [WTFPL](http://www.wtfpl.net/)
+
+## Support me
+
+![GitHub stars](https://img.shields.io/github/stars/lesnitsky/git-tutor.svg?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)
