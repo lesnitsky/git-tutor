@@ -1,11 +1,10 @@
 # Git Tutor
 
 [![Build Status](https://travis-ci.com/R1ZZU/git-tutor.svg?branch=master)](https://travis-ci.com/R1ZZU/git-tutor)
-
-> Support me
-
 ![GitHub stars](https://img.shields.io/github/stars/lesnitsky/git-tutor.svg?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)
+
+![Git Tutor Logo](https://git-tutor-assets.s3.eu-west-2.amazonaws.com/git-tutor-logo-100.png)
 
 Generate step-by-step markdown tutorials from your git history
 
