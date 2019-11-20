@@ -17,14 +17,14 @@ Git is a perfect tool to build smth incrementally (commits). `git-tutor` walks t
 
 ## Example tutorials
 
-* [Tic Tac Toe](https://github.com/R1ZZU/tic-tac-toe)
+-   [Tic Tac Toe](https://github.com/R1ZZU/tic-tac-toe)
 
 ## Some rules
 
-* keep commits small and explain almost every line of code you're writing
-* write markdown to your commit messages
-* don't skip anything. Simple copy-paste should work to reproduce the result of your tutorial
-* writing code is fun. Explaining how code works is even more of fun
+-   keep commits small and explain almost every line of code you're writing
+-   write markdown to your commit messages
+-   don't skip anything. Simple copy-paste should work to reproduce the result of your tutorial
+-   writing code is fun. Explaining how code works is even more of fun
 
 ## Installation
 
@@ -65,31 +65,31 @@ git commit --allow-empty
 
 Writing a lot of markdown is not really convenient in default git editor like `vi`, I prefer doing it in `vscode` as it allows to preview parsed markdown with all styling applied. To use `vscode` as git editor
 
-* Install `code` command in `$PATH` (<kbd>Shift</kbd> + <kbd>CMD</kbd> + <kbd>P</kbd> => Search for `PATH`)
-* `git config core.editor "code --wait"`
+-   Install `code` command in `$PATH` (<kbd>Shift</kbd> + <kbd>CMD</kbd> + <kbd>P</kbd> => Search for `PATH`)
+-   `git config core.editor "code --wait"`
 
 ### Default commit message template contains status in comment, how to remove it
 
 You can pass `--no-status` flag to a `commit` command, this will strip those commented lines
+
 ```sh
 git commit --no-status
 ```
 
 You can also use your custom commit template:
 
-* create empty file and place it somwhere in your file system (e.g. `~/.gitmsg`)
-* `git config commit.template ~/.gitmsg`
+-   create empty file and place it somwhere in your file system (e.g. `~/.gitmsg`)
+-   `git config commit.template ~/.gitmsg`
 
 ## Unsolved issues
 
-* i18n (cherry-pick to new locale branch with translation?)
-* updates to previous commits (rebase works, but not convenient)
-* collobaration
+-   i18n (cherry-pick to new locale branch with translation?)
+-   updates to previous commits (rebase works, but not convenient)
+-   collobaration
 
 ## LICENSE
-[WTFPL](http://www.wtfpl.net/)
 
-## Support me
+[WTFPL](http://www.wtfpl.net/)
 
 ![GitHub stars](https://img.shields.io/github/stars/lesnitsky/git-tutor.svg?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)
