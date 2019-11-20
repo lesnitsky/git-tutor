@@ -1,6 +1,6 @@
 # Git Tutor
 
-[![Build Status](https://travis-ci.com/R1ZZU/git-tutor.svg?branch=master)](https://travis-ci.com/R1ZZU/git-tutor)
+[![Build Status](https://travis-ci.com/lesnitsky/git-tutor.svg?branch=master)](https://travis-ci.com/R1ZZU/git-tutor)
 ![GitHub stars](https://img.shields.io/github/stars/lesnitsky/git-tutor.svg?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)
 
