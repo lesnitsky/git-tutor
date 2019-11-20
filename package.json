@@ -1,15 +1,15 @@
 {
     "name": "git-tutor",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Generate markdown tutorials from your git history",
     "author": {
-        "email": "volchenko.andrei@gmail.com",
-        "name": "Andrei Volchenko",
-        "url": "https://twitter.com/R1ZZU"
+        "email": "andrei.lesnitsky@gmail.com",
+        "name": "Andrei Lesnutksy",
+        "url": "https://twitter.com/lesnitsky_a"
     },
     "license": "WTFPL",
     "bugs": {
-        "url": "https://github.com/R1ZZU/git-tutor/issues"
+        "url": "https://github.com/lesnitsky/git-tutor/issues"
     },
     "keywords": [
         "git",
