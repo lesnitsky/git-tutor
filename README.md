@@ -11,7 +11,7 @@ Generate step-by-step markdown tutorials from your git history
 ## Motivation
 
 There is tons of tutorials on medium, personal blogs etc.
-Writing detailed and complete guide how to build things is kinda hard and people are lazy, so those tutorials sometimes incomplete, code examples don't work as-is (some "prerequisite" step was not included in tutorial), sometimes it walks you through only some peices of code and you can find the rest in repo. But you have no idea how the rest works.
+Writing detailed and complete guide how to build things is kinda hard and people are lazy, so those tutorials sometimes incomplete, code examples don't work as-is (some "prerequisite" step was not included in tutorial), sometimes it walks you through only some pieces of code and you can find the rest in repo. But you have no idea how the rest works.
 
 Git is a perfect tool to build smth incrementally (commits). `git-tutor` walks through commit history and generates markdown, placing commit message first, content of a commit afterwards. Write markdown to your commit messages – have a nice tutorial later with single command
 
