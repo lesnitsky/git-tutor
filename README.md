@@ -1,5 +1,6 @@
 # Git Tutor
 
+[![lesnitsky.dev](https://lesnitsky.dev/icons/shield.svg?hash=42)](https://lesnitsky.dev?utm_source=git-tutor)
 [![Build Status](https://travis-ci.com/lesnitsky/git-tutor.svg?branch=master)](https://travis-ci.com/R1ZZU/git-tutor)
 ![GitHub stars](https://img.shields.io/github/stars/lesnitsky/git-tutor.svg?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)
@@ -91,5 +92,6 @@ You can also use your custom commit template:
 
 [WTFPL](http://www.wtfpl.net/)
 
+[![lesnitsky.dev](https://lesnitsky.dev/icons/shield.svg?hash=42)](https://lesnitsky.dev?utm_source=git-tutor)
 ![GitHub stars](https://img.shields.io/github/stars/lesnitsky/git-tutor.svg?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_a.svg?label=Follow%20me&style=social)
